@@ -40,7 +40,8 @@
 (defvar my-packages
   '(;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
-    paredit
+    ;; Using lispy instead
+    ;; paredit 
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
@@ -56,7 +57,7 @@
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
     ;; of ido
-    ido-completing-read+
+    ;; ido-completing-read+
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -73,7 +74,19 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    ;; These ones added by Dave
+    avy
+    lispy
+    ivy
+    counsel
+    swiper
+    ace-window
+    which-key
+    multiple-cursors
+    undo-tree
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -142,6 +155,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(clojure-indent-style (quote align-arguments))
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
