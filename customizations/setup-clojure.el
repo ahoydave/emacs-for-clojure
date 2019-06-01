@@ -4,11 +4,11 @@
 
 ;; Enable paredit for Clojure
 ;; (add-hook 'clojure-mode-hook 'enable-paredit-mode)
-(add-hook 'lisp-mode-hook 'lispy-mode)
+(add-hook 'clojure-mode-hook 'lispy-mode)
 
 ;; This is useful for working with camel-case tokens, like names of
 ;; Java classes (e.g. JavaClassName)
-(add-hook 'clojure-mode-hook 'subword-mode)
+;; (add-hook 'clojure-mode-hook 'subword-mode)
 
 ;; A little more syntax highlighting
 (require 'clojure-mode-extra-font-locking)
