@@ -72,3 +72,15 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/unmark-next-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+;; Useful Misc keybinding
+(global-set-key (kbd "C-x g") 'magit-status)
+
+;; autocomplete
+(global-company-mode)
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
+(setq company-idle-delay nil) ; never start completions automatically
+(global-set-key (kbd "M-<SPC>") #'company-complete) ; use M-TAB, a.k.a. C-M-i, as manual trigger
+
+(rainbow-delimiters-mode)

@@ -55,3 +55,8 @@
 (add-to-list 'auto-mode-alist '("\\.boot$" . clojure-mode))
 ;; (add-to-list 'auto-mode-alist '("\\.cljs.*$" . clojure-mode))  <-- actually want clojurescript-mode here
 (add-to-list 'auto-mode-alist '("lein-env" . enh-ruby-mode))
+
+;; clojure linting
+(require 'flycheck-joker)
+(add-hook 'clojure-mode-hook 'company-mode)
+(add-hook 'clojure-mode-hook 'flycheck-mode)
