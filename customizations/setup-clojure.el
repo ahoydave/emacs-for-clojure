@@ -63,3 +63,4 @@
 (add-hook 'clojure-mode-hook 'flycheck-mode)
 
 (setq cider-default-cljs-repl 'figwheel)
+(setq cider-prompt-for-symbol nil)
