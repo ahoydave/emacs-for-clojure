@@ -41,7 +41,7 @@
   '(;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     ;; Using lispy instead
-    ;; paredit 
+    paredit 
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
@@ -78,7 +78,7 @@
 
     ;; These ones added by Dave
     avy
-    lispy
+    ;; lispy
     ivy
     counsel
     swiper
@@ -170,6 +170,7 @@
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    (vector "#c5c8c6" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#8abeb7" "#1d1f21"))
+ '(clojure-align-forms-automatically t)
  '(clojure-indent-style (quote align-arguments))
  '(coffee-tab-width 2)
  '(custom-safe-themes
@@ -179,7 +180,8 @@
  '(global-undo-tree-mode t)
  '(package-selected-packages
    (quote
-    (evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
+    (smooth-scrolling org-jira evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
+ '(safe-local-variable-values (quote ((cider-default-cljs-repl . figwheel))))
  '(which-key-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

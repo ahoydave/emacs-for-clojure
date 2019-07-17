@@ -19,6 +19,7 @@
         lispy-delete
         lispy-delete-backward
         lispy-kill
+        lispy-kill-word
         lispy-parens
         lispy-quotes
         lispy-space

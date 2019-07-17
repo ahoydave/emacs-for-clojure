@@ -3,9 +3,9 @@
 ;;;;
 
 ;; Enable paredit for Clojure
-;; (add-hook 'clojure-mode-hook 'enable-paredit-mode)
-(add-hook 'clojure-mode-hook 'lispy-mode)
-(add-hook 'cider-repl-mode-hook 'lispy-mode)
+(add-hook 'clojure-mode-hook 'enable-paredit-mode)
+;; (add-hook 'clojure-mode-hook 'lispy-mode)
+;; (add-hook 'cider-repl-mode-hook 'lispy-mode)
 
 ;; This is useful for working with camel-case tokens, like names of
 ;; Java classes (e.g. JavaClassName)
