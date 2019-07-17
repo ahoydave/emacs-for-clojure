@@ -67,3 +67,7 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; scroll when you get close to the edge of the window
+(smooth-scrolling-mode 1)
+(setq smooth-scroll-margin 4)

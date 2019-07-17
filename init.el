@@ -92,6 +92,7 @@
     ;; evil-collection
     company
     flycheck-joker
+    smooth-scrolling
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
