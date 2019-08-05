@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        counsel-M-x
         evil-append-line
         evil-backward-char
         evil-complete-next
@@ -14,6 +15,9 @@
         evil-scroll-line-down
         evil-shift-left-line
         forward-sexp
+        indent-for-tab-command
+        kill-region
+        kill-sexp
         lispy-braces
         lispy-brackets
         lispy-delete
@@ -23,6 +27,17 @@
         lispy-parens
         lispy-quotes
         lispy-space
+        mark-sexp
+        paredit-backward
+        paredit-doublequote
+        paredit-forward
+        paredit-forward-delete
+        paredit-forward-kill-word
+        paredit-kill
+        paredit-meta-doublequote
+        paredit-newline
+        paredit-splice-sexp-killing-backward
+        paredit-wrap-round
         special-digit-argument
         special-lh-knight/body
         special-lispy-ace-char

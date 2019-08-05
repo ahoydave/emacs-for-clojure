@@ -180,7 +180,7 @@
  '(global-undo-tree-mode t)
  '(package-selected-packages
    (quote
-    (smooth-scrolling org-jira evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
+    (gh-md smooth-scrolling org-jira evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
  '(safe-local-variable-values (quote ((cider-default-cljs-repl . figwheel))))
  '(which-key-mode t))
 (custom-set-faces
