@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        cider-eval-last-sexp-and-replace
         counsel-M-x
         evil-append-line
         evil-backward-char
@@ -14,6 +15,7 @@
         evil-previous-line
         evil-scroll-line-down
         evil-shift-left-line
+        fixup-whitespace
         forward-sexp
         indent-for-tab-command
         kill-region
@@ -33,9 +35,12 @@
         paredit-forward
         paredit-forward-delete
         paredit-forward-kill-word
+        paredit-forward-slurp-sexp
         paredit-kill
         paredit-meta-doublequote
         paredit-newline
+        paredit-open-round
+        paredit-open-square
         paredit-splice-sexp-killing-backward
         paredit-wrap-round
         special-digit-argument
@@ -108,6 +113,7 @@
         special-lispy-widen
         special-lispy-x
         special-pop-tag-mark
+        transpose-sexps
         ))
 
 (setq mc/cmds-to-run-once

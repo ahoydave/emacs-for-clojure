@@ -76,6 +76,7 @@
 ;; Useful Misc keybinding
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-=") 'fixup-whitespace)
+(global-set-key (kbd "C--") 'join-line)
 
 ;; autocomplete
 (global-company-mode)
