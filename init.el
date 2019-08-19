@@ -94,6 +94,7 @@
     flycheck-joker
     smooth-scrolling
     crux
+    clj-refactor
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
