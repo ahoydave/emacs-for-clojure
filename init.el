@@ -174,7 +174,7 @@
  '(ansi-color-names-vector
    (vector "#c5c8c6" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#8abeb7" "#1d1f21"))
  '(clojure-align-forms-automatically t)
- '(clojure-indent-style (quote align-arguments))
+ '(clojure-indent-style (quote always-align))
  '(coffee-tab-width 2)
  '(custom-safe-themes
    (quote
@@ -183,7 +183,7 @@
  '(global-undo-tree-mode t)
  '(package-selected-packages
    (quote
-    (crux gh-md smooth-scrolling org-jira evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
+    (yaml-mode markdown-mode clj-refactor restclient crux gh-md smooth-scrolling org-jira evil evil-leader lispyville magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode exec-path-from-shell)))
  '(safe-local-variable-values (quote ((cider-default-cljs-repl . figwheel))))
  '(which-key-mode t))
 (custom-set-faces

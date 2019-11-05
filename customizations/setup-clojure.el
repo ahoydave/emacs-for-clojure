@@ -65,3 +65,19 @@
 
 (setq cider-default-cljs-repl 'figwheel)
 (setq cider-prompt-for-symbol nil)
+
+;; set up formatting buffer on save
+(defun cider-format-buffer-back () (interactive)
+  (let (p)
+    (setq p (point))
+    (cider-format-buffer)
+    (goto-char p))
+  )
+
+(defun add-clj-format-before-save () (interactive)
+       (add-hook 'before-save-hook
+                 'cider-format-buffer-back
+                 t t))
+
+(add-hook 'clojure-mode-hook
+          'add-clj-format-before-save)
