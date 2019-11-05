@@ -18,6 +18,7 @@
         fixup-whitespace
         forward-sexp
         indent-for-tab-command
+        isearch-repeat-backward
         kill-region
         kill-sexp
         lispy-braces
@@ -31,6 +32,7 @@
         lispy-space
         mark-sexp
         paredit-backward
+        paredit-backward-up
         paredit-doublequote
         paredit-forward
         paredit-forward-delete
@@ -39,6 +41,7 @@
         paredit-kill
         paredit-meta-doublequote
         paredit-newline
+        paredit-open-curly
         paredit-open-round
         paredit-open-square
         paredit-splice-sexp-killing-backward
@@ -113,10 +116,13 @@
         special-lispy-widen
         special-lispy-x
         special-pop-tag-mark
+        toggle-comment-on-line
         transpose-sexps
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        avy-goto-char-2
+        goto-line
         lispy-cursor-down
         ))
